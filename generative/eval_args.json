@@ -1,0 +1,18 @@
+{
+  "cuda_devices_to_use": "1",
+  "model": "Other",
+  "base_model": "Qwen/Qwen2.5-0.5B", 
+  "adapter": "LoRA",
+  "dataset": "AQuA",
+  "lora_weights": "math_10k/teacher_Qwen2.5-3B/student_Qwen2.5-0.5B/student_RevKD/temp_1.0/seed_6/student_model/checkpoint-2400",
+  "report_to": "",
+  "wandb_project": "wandb project name",
+  "wandb_run_name": "wandb run name",
+  "seed": 6,
+  "do-sample": true,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": 0,
+  "num_beams": 1,
+  "max_new_tokens": 256
+}

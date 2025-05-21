@@ -1,0 +1,21 @@
+{
+  "cuda_devices_to_use": "2",
+  "teacher_base_model": "Qwen/Qwen2.5-3B",
+  "teacher_lora_weights": "/path/to/teacher/lora/weights",
+  "student_base_model": "Qwen/Qwen2.5-3B", 
+  "kd_loss_weight": 1,
+  "kd_loss": "",
+  "kd_temperature": 1.0,
+  "data_path": "ft-training_set/math_10k.json",
+  "output_dir": "test-123",
+  "batch_size": 16,
+  "micro_batch_size": 4,
+  "num_epochs": 4,
+  "learning_rate": 3e-4,
+  "cutoff_len": 256,
+  "val_set_size": 500,
+  "adapter_name": "lora",
+  "wandb_project": "wandb project name",
+  "wandb_run_name": "wandb-run-name",
+  "seed": 6
+}

@@ -1,0 +1,11 @@
+accelerate
+appdirs
+bitsandbytes
+black
+datasets
+fire
+transformers
+torch
+gradio
+sentencepiece
+wandb

@@ -30,3 +30,14 @@
     ```
    The results are saved in the same directory as the LoRA weights. A sub-directory is created for each task with two files - one showing the accuracy scores and another with the instruction text and the model's output.
 
+### Citation
+```bibtex
+@inproceedings{
+kdacl2025,
+title={On the Generalization vs Fidelity Paradox in Knowledge Distillation},
+author={Suhas K Ramesh, Ayan Sengupta, Tanmoy Chakraborty},
+booktitle={The 63rd Annual Meeting of the Association for Computational Linguistics},
+year={2025},
+url={https://openreview.net/forum?id=co3zQsH7yz}
+}
+```
